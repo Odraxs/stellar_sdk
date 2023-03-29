@@ -37,12 +37,12 @@ defmodule Stellar.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:stellar_base, "~> 0.8.7"},
+      {:stellar_base, "~> 0.9.0"},
       {:ed25519, "~> 1.3"},
       {:hackney, "~> 1.17"},
       {:jason, "~> 1.0"},
       {:dialyxir, "~> 1.0", only: [:dev], runtime: false},
-      {:excoveralls, "~> 0.15", only: :test},
+      {:excoveralls, "~> 0.16", only: :test},
       {:credo, "~> 1.5", only: [:dev, :test], runtime: false},
       {:ex_doc, "~> 0.29", only: :dev, runtime: false}
     ]
